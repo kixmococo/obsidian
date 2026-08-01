@@ -1,0 +1,4 @@
+Open the file called Grade Pitch and Slippery Slopes. Pick ONE of the questions that has not already been answered by a classmate. Click on Post New Thread and make the problem number and the topic (#1 Highway Grade) the subject of your post so that people can tell at a glance which problems have already been answered.
+
+Give a full and complete answer to the question. I would like you to find out about the material and describe the answer in your own words. Most of these topics require some research. Don't forget that you must give attribution to your source. Be sure to cut and paste the URL of the site from which you got the information. Sometimes other students decide that a topic is interesting and would like to learn more about it. Your source will provide them with a good starting point. This initial post is worth 6 points.
+
