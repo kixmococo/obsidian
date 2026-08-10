@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/merge conflicts.md",
+                "file": "Linux/bootable-usb-linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "merge conflicts"
+              "title": "bootable-usb-linux"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.4609375
+    "width": 200
   },
   "right": {
     "id": "9745cd9d819e6f28",
@@ -186,18 +186,10 @@
   },
   "active": "bac2b958b8aaa630",
   "lastOpenFiles": [
-    "Linux/remote-desktop-setup.md",
-    "Godot/Gomgom/GDD.md",
-    "Linux/WIP Resetting Drivers.md",
-    "Linux/imagemagick-commands.md",
-    "Linux/Downloading .appimage.md",
-    "Linux/creating-ssh-keys.md",
-    "Git/git-submodule-fix.md",
+    "Linux/bootable-usb-linux.md",
     "Linux/remote-desktop-setup_2.md",
     "Linux/remote-desktop-setup_1.md",
-    "Linux/remote-desktop-setup 1.md",
-    "Git/merge conflicts.md",
-    "Linux/Untitled.md",
+    "Linux/remote-desktop-setup.md",
     "Coding/gd/abs-beginner.md",
     "Coding/gd/modules.md",
     "Coding/gd/randoms.md",
@@ -209,11 +201,19 @@
     "Coding/python/python-modules-step-by-step_1.md",
     "Coding/python/compiled_annotated_and_practical_app.md",
     "Coding/cs/csharp-beginner-to-novice-guide.md",
+    "Git/merge conflicts.md",
     "Git/git-diff-guide.md",
     "Git/git-cheatsheet.md",
+    "Linux/WIP Resetting Drivers.md",
+    "Linux/Downloading .appimage.md",
+    "Linux/creating-ssh-keys.md",
     "Git/Untitled.md",
+    "Godot/Gomgom/GDD.md",
     "Godot/Gomgom/GDD-Design-Notes.md",
+    "Untitled.md",
     "Untitled",
+    "GameDev/gamedev.md.md",
+    "gitrepo/obsidiannotes/amus/coding/general/c#/2-csharp_quick_cheatsheet.md",
     "gitrepo/obsidiannotes/amus/coding/godot/notes",
     "gitrepo/obsidiannotes/amus/coding/general/c#",
     "gitrepo/obsidiannotes/amus/coding/general/C++",

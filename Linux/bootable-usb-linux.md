@@ -70,6 +70,58 @@ immediately before running `dd`.
 
 ---
 
+## Troubleshooting: "device is busy"
+
+Usually means something still has it mounted or open.
+
+**1. Find what's using it**
+```bash
+sudo lsof /dev/sdb1
+# or
+sudo fuser -m /dev/sdb1
+```
+Shows processes with open handles on the drive (a file manager preview pane, a
+terminal `cd`'d into it, a background indexer, etc.)
+
+**2. Kill whatever's holding it**
+```bash
+sudo fuser -km /dev/sdb1
+```
+`-k` kills the processes using it, `-m` targets the mount point/device.
+
+**3. Force unmount**
+```bash
+sudo umount -f /dev/sdb1
+```
+If that still fails, try lazy unmount — detaches it now and cleans up once it's no
+longer busy:
+```bash
+sudo umount -l /dev/sdb1
+```
+
+**4. Check for auto-remount**
+GNOME/KDE file managers often auto-remount a drive right after you unmount it,
+especially if it's still showing in the sidebar. Close any file manager windows
+showing the drive, and check:
+```bash
+mount | grep sdb
+```
+If it's back, kill the file manager process or unmount via `udisksctl` instead —
+it goes through the same daemon the desktop uses, so it won't just get remounted
+behind your back:
+```bash
+udisksctl unmount -b /dev/sdb1
+```
+
+**5. If `wipefs`/`mkfs` itself says busy**
+
+Same root cause — something still has the device node open. Re-run the fuser/lsof
+check against the whole disk, not just the partition:
+```bash
+sudo fuser -km /dev/sdb
+sudo wipefs -a /dev/sdb
+```
+
 ## Alternative: just copying a file (not making it bootable)
 
 If you want the ISO file to just sit on a normal formatted drive rather than
