@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/bootable-usb-linux.md",
+                "file": "Linux/lsblk/bootable-usb-linux_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bootable-usb-linux"
+              "title": "bootable-usb-linux_1"
             }
           }
         ]
@@ -184,8 +184,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "bac2b958b8aaa630",
+  "active": "1453ac8de11babb4",
   "lastOpenFiles": [
+    "Linux/lsblk",
+    "Linux/lsblk/format-usb-fat32-linux.md",
+    "Linux/lsblk/hp-probook-650-g5-bios-usb-update.md",
+    "Linux/lsblk/bootable-usb-linux_1.md",
+    "Linux/misc",
+    "Linux/creating-ssh-keys.md",
     "Linux/bootable-usb-linux.md",
     "Linux/remote-desktop-setup_2.md",
     "Linux/remote-desktop-setup_1.md",
@@ -206,21 +212,15 @@
     "Git/git-cheatsheet.md",
     "Linux/WIP Resetting Drivers.md",
     "Linux/Downloading .appimage.md",
-    "Linux/creating-ssh-keys.md",
     "Git/Untitled.md",
     "Godot/Gomgom/GDD.md",
-    "Godot/Gomgom/GDD-Design-Notes.md",
-    "Untitled.md",
     "Untitled",
-    "GameDev/gamedev.md.md",
-    "gitrepo/obsidiannotes/amus/coding/general/c#/2-csharp_quick_cheatsheet.md",
     "gitrepo/obsidiannotes/amus/coding/godot/notes",
     "gitrepo/obsidiannotes/amus/coding/general/c#",
     "gitrepo/obsidiannotes/amus/coding/general/C++",
     "gitrepo/obsidiannotes/amus/coding/godot",
     "gitrepo/obsidiannotes/amus/coding/general",
     "gitrepo/obsidiannotes/amus/coding/Git",
-    "gitrepo/obsidiannotes/amus/coding",
-    "gitrepo/obsidiannotes/amus/1 amus/1.1 Classes/1 Math/1 MATH110/week3"
+    "gitrepo/obsidiannotes/amus/coding"
   ]
 }
