@@ -89,6 +89,11 @@ Inside `fdisk`, in order:
 sudo mkfs.vfat -F 32 /dev/sda1
 ```
 
+NOTE: this is the preferred HP format
+```bash
+sudo mkfs.vfat -F 32 -n HP /dev/sda
+```
+
 ⚠️ Target the **partition** (`/dev/sda1`), not the whole disk and not `/dev/null` —
 double-check the device name before hitting enter.
 
