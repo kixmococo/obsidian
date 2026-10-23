@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "9c57cd6bf3bc7b03",
+    "id": "b79532d70ce6883d",
     "type": "split",
     "children": [
       {
-        "id": "1f017ec4d5f8bf98",
+        "id": "454f3a1f273882a8",
         "type": "tabs",
         "children": [
           {
-            "id": "bac2b958b8aaa630",
+            "id": "7a43d4377930252d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CTB/Annex B/Annex B Lesson 1 -Operating Systems.pdf"
+                "file": "Git/merge conflicts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Annex B Lesson 1 -Operating Systems"
+              "icon": "lucide-file",
+              "title": "merge conflicts"
             }
           }
         ]
@@ -25,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5cefa846af766278",
+    "id": "5aa30fda27f5fe20",
     "type": "split",
     "children": [
       {
-        "id": "2dabbc81ec773bd4",
+        "id": "b98d8a2f71c96ebe",
         "type": "tabs",
         "children": [
           {
-            "id": "1453ac8de11babb4",
+            "id": "aa6b9563d30c2bc1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +50,7 @@
             }
           },
           {
-            "id": "989a74a85224aa50",
+            "id": "a025ef7b7354f8cd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +67,7 @@
             }
           },
           {
-            "id": "36074e5d18ebce93",
+            "id": "ed1cea3715a626f3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,23 +83,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "9745cd9d819e6f28",
+    "id": "4cda8b25f65bb4bb",
     "type": "split",
     "children": [
       {
-        "id": "0462aea9d53d496b",
+        "id": "4799219a6655d82f",
         "type": "tabs",
         "children": [
           {
-            "id": "9fd3ceef1c9975eb",
+            "id": "8465e9d5abf4ed67",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/gd/gdscript-modules-step-by-step.md",
+                "file": "Git/merge conflicts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,15 +109,16 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for gdscript-modules-step-by-step"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "dc301ca10f839428",
+            "id": "fcb3843037b37a00",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git/merge conflicts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -124,7 +127,7 @@
             }
           },
           {
-            "id": "47ab028511f3ef7d",
+            "id": "6b1b9ee1838102fd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,7 +142,7 @@
             }
           },
           {
-            "id": "70fccac49ddb2fd3",
+            "id": "809d85def51d9fea",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -153,18 +156,18 @@
             }
           },
           {
-            "id": "194dc0ab27d417c0",
+            "id": "5cb16bcf8949b81c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Git/merge conflicts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
             }
           }
         ]
@@ -185,44 +188,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "bac2b958b8aaa630",
+  "active": "7a43d4377930252d",
   "lastOpenFiles": [
-    "CTB/Annex B/Annex B Messaging Systems Lesson.pdf",
-    "CTB/Annex B/Annex B Lesson 1 -Operating Systems.pdf",
-    "CTB/Annex B/Annex B Lesson 2 -Server Roles.pdf",
-    "CTB/Annex B/Annex B Lesson 3 -Group Policy.pdf",
-    "CTB/Annex A/DS.01.01 - I.T. Fundamentals.pdf",
-    "CTB/Annex A/DS.01.02 - Windows Navigation.pdf",
-    "CTB/Annex A/DS.01.03 - Windows Fundamentals.pdf",
-    "CTB/Annex A/DS.01.04 - Linux Fundamentals.pdf",
-    "CTB/Annex A/DS.01.05 - Troubleshooting.pdf",
-    "CTB/Annex A/lu34206574eb.tmp",
-    "CTB/Annex A/lu34206574e8.tmp",
-    "GitLab Open Tickets/22.md",
-    "GitLab Open Tickets/18.md",
-    "Godot/HowTo/unified-menu-system-build-guide.md",
-    "Godot/menu-system-guide.md",
-    "Linux/remote-desktop-setup.md",
-    "Godot/Godot_3D_Guide.md",
-    "Godot/Gomgom/GDD.md",
-    "Coding/py/python-beginner-to-novice-guide.md",
-    "Coding/py/compiled_annotated_and_practical_app.md",
-    "GameDev/csv friendly.md",
-    "Coding/c#/6-csharp_functions_cheatsheet.md",
-    "Coding/c#/0-dotnet_quick_cheatsheet.md",
-    "GitLab Open Tickets/34.md",
-    "Godot/2d Godot Basic Concepts.md",
-    "GitLab Open Tickets/32.md",
-    "GitLab Open Tickets/29.md",
-    "GitLab Open Tickets/28.md",
-    "GitLab Open Tickets/23.md",
-    "GitLab Open Tickets/26.md",
-    "gitrepo/obsidiannotes/amus/coding/godot/notes/1a- Getting Started.md",
-    "Untitled.canvas",
-    "Linux/bashrc-and-aliases.md",
-    "Linux/creating-ssh-keys.md",
-    "Coding/c#/7.3-csharp_file_array_string_char_int_cheatsheet.md",
-    "Coding/c#/7.2-csharp_text_files_and_processing_cheatsheet-1.md",
-    "Coding/c#/7.1-csharp_parse_tryparse_conversions_cheatsheet.md"
+    "Git/merge conflicts.md.tmp.12577.93fbe511f9fa"
   ]
 }
