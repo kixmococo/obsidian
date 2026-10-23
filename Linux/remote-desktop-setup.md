@@ -69,7 +69,7 @@ sudo reboot
 ```
 
 ---
-
+curl -fsSL https://tailscale.com/install.sh | sh
 ## Part 2: Set Up Your Phone
 
 1. Install **Tailscale** from the App Store / Play Store and log into the **same account** you used on the Ubuntu machine.

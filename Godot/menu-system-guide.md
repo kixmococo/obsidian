@@ -70,7 +70,8 @@ with these relevant values:
   of `SceneTree.paused`.
 
 Setting `get_tree().paused = true` is a single global switch. Godot doesn't
-require you to manually pause every gameplay node — the *default* mode
+require you to manually pause every gameplay node — the *d
+efault* mode
 (`PAUSABLE`) already freezes them for free. The only thing that needs
 special handling is **the menu itself**, since a menu that also froze when
 `paused = true` would be unable to un-pause itself (its own `Resume` button

@@ -11,14 +11,12 @@
             "id": "bac2b958b8aaa630",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Godot/HowTo/unified-menu-system-build-guide.md",
-                "mode": "source",
-                "source": false
+                "file": "CTB/Annex B/Annex B Lesson 1 -Operating Systems.pdf"
               },
-              "icon": "lucide-file",
-              "title": "unified-menu-system-build-guide"
+              "icon": "lucide-file-text",
+              "title": "Annex B Lesson 1 -Operating Systems"
             }
           }
         ]
@@ -71,7 +69,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -186,42 +187,42 @@
   },
   "active": "bac2b958b8aaa630",
   "lastOpenFiles": [
-    "Godot/HowTo/unified-menu-system-build-guide.md.tmp.10544.110a907af4a1",
-    "Godot/HowTo/unified-menu-system-build-guide.md.tmp.10544.49a3c86c7af8",
-    "GitLab Open Tickets/34.md",
+    "CTB/Annex B/Annex B Messaging Systems Lesson.pdf",
+    "CTB/Annex B/Annex B Lesson 1 -Operating Systems.pdf",
+    "CTB/Annex B/Annex B Lesson 2 -Server Roles.pdf",
+    "CTB/Annex B/Annex B Lesson 3 -Group Policy.pdf",
+    "CTB/Annex A/DS.01.01 - I.T. Fundamentals.pdf",
+    "CTB/Annex A/DS.01.02 - Windows Navigation.pdf",
+    "CTB/Annex A/DS.01.03 - Windows Fundamentals.pdf",
+    "CTB/Annex A/DS.01.04 - Linux Fundamentals.pdf",
+    "CTB/Annex A/DS.01.05 - Troubleshooting.pdf",
+    "CTB/Annex A/lu34206574eb.tmp",
+    "CTB/Annex A/lu34206574e8.tmp",
+    "GitLab Open Tickets/22.md",
+    "GitLab Open Tickets/18.md",
     "Godot/HowTo/unified-menu-system-build-guide.md",
     "Godot/menu-system-guide.md",
+    "Linux/remote-desktop-setup.md",
+    "Godot/Godot_3D_Guide.md",
+    "Godot/Gomgom/GDD.md",
+    "Coding/py/python-beginner-to-novice-guide.md",
+    "Coding/py/compiled_annotated_and_practical_app.md",
+    "GameDev/csv friendly.md",
+    "Coding/c#/6-csharp_functions_cheatsheet.md",
+    "Coding/c#/0-dotnet_quick_cheatsheet.md",
+    "GitLab Open Tickets/34.md",
     "Godot/2d Godot Basic Concepts.md",
-    "Godot/HowTo/unified-menu-system-build-guide.md.tmp.10544.88e7ae7e2938",
-    "Godot/HowTo",
     "GitLab Open Tickets/32.md",
     "GitLab Open Tickets/29.md",
     "GitLab Open Tickets/28.md",
     "GitLab Open Tickets/23.md",
-    "GitLab Open Tickets/22.md",
-    "GitLab Open Tickets/18.md",
     "GitLab Open Tickets/26.md",
     "gitrepo/obsidiannotes/amus/coding/godot/notes/1a- Getting Started.md",
-    "Untitled.base",
     "Untitled.canvas",
-    "GitLab Open Tickets",
     "Linux/bashrc-and-aliases.md",
     "Linux/creating-ssh-keys.md",
     "Coding/c#/7.3-csharp_file_array_string_char_int_cheatsheet.md",
     "Coding/c#/7.2-csharp_text_files_and_processing_cheatsheet-1.md",
-    "Coding/c#/7.1-csharp_parse_tryparse_conversions_cheatsheet.md",
-    "Coding/c#/6-csharp_functions_cheatsheet.md",
-    "Coding/c#/5-csharp_looping_and_indexing_cheatsheet.md",
-    "Coding/c#/4-csharp_if_else_cheatsheet.md",
-    "Coding/c#/3-csharp_booleans_cheatsheet.md",
-    "Coding/c#/2-csharp_quick_cheatsheet.md",
-    "Coding/c#/1-csharp_etiquette_and_structure_cheatsheet.md",
-    "Coding/c#/0-dotnet_quick_cheatsheet.md",
-    "gitrepo/obsidiannotes/amus/coding/Git/1a-Git Cheatsheet.md",
-    "Linux/lsblk",
-    "Linux/misc",
-    "Coding/py",
-    "gitrepo/obsidiannotes/amus/coding/godot/notes",
-    "Coding/c#"
+    "Coding/c#/7.1-csharp_parse_tryparse_conversions_cheatsheet.md"
   ]
 }
