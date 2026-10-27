@@ -13,13 +13,38 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "CTB/Annex B/Annex B Lesson 3 -Group Policy.pdf"
+                "file": "CTB/Annex B/Handouts/Annex B Messaging Systems Lesson.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Annex B Messaging Systems Lesson"
+            }
+          },
+          {
+            "id": "3702bf89641fad32",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CTB/Annex B/Handouts/Annex B Lesson 3 -Group Policy.pdf"
               },
               "icon": "lucide-file-text",
               "title": "Annex B Lesson 3 -Group Policy"
             }
+          },
+          {
+            "id": "c9dc64d14bb63e1e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CTB/Annex B/Facilitation Guides/DSAC DS.02.02 Facilitation Guide WORKING.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DSAC DS.02.02 Facilitation Guide WORKING"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4cda8b25f65bb4bb",
@@ -186,13 +211,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "7a43d4377930252d",
+  "active": "c9dc64d14bb63e1e",
   "lastOpenFiles": [
-    "CTB/Annex B/Annex B Lesson 1 -Operating Systems.pdf",
-    "CTB/Annex B/Annex B Messaging Systems Lesson.pdf",
-    "CTB/Annex B/Annex B Lesson 2 -Server Roles.pdf",
+    "CTB/Annex B/Facilitation Guides/DSAC DS.02.01 Facilitation Guide WORKING.pdf",
+    "CTB/Annex A/Instructor Guide/DS.01.01 - I.T. Fundamentals Instructor notes.pdf",
+    "CTB/Annex B/Facilitation Guides/DSAC DS.02.08 Facilitation Guide WORKING.pdf",
+    "CTB/Facilitation Guide (all)/DSAC DS.03.01 Facilitation Guide WORKING.pdf",
+    "CTB/Annex B/Facilitation Guides",
+    "CTB/Annex B/Facilitation Guides/DSAC DS.02.07 Faciliation Guide WORKING.pdf",
+    "CTB/Annex B/Facilitation Guides/DSAC DS.02.02 Facilitation Guide WORKING.pdf",
+    "CTB/Facilitation Guide (all)/DSAC DS.03.02 Facilitation Guide WORKING.pdf",
+    "CTB/Facilitation Guide (all)/DSAC DS.03.03 Facilitation Guide WORKING.pdf",
+    "CTB/Annex B/Facilitation Guides/DSAC DS.02.06 Faciliation Guide WORKING.pdf",
+    "CTB/Annex B/Facilitation Guides/DSAC DS.02.05 Faciliation Guide WORKING.pdf",
+    "Linux/LibreOffice/office-to-pdf.md",
+    "Coding/cs/csharp-beginner-to-novice-guide.md",
+    "Untitled.canvas",
+    "Coding/c.md",
+    "Linux/LibreOffice/images-to-searchable-pdf.md",
+    "Linux/remote-desktop-setup.md",
+    "Linux/lutris-guide.md",
     "Linux/cac-setup.md",
-    "Git/merge conflicts.md",
-    "Git/merge conflicts.md.tmp.12577.93fbe511f9fa"
+    "Git/merge conflicts.md"
   ]
 }
