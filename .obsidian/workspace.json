@@ -23,28 +23,32 @@
             "id": "3702bf89641fad32",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CTB/Annex B/Handouts/Annex B Lesson 3 -Group Policy.pdf"
+                "file": "CTB/Annex B/Knowledge Check/lesson1-knowledgecheck.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Annex B Lesson 3 -Group Policy"
+              "icon": "lucide-file",
+              "title": "lesson1-knowledgecheck"
             }
           },
           {
             "id": "c9dc64d14bb63e1e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CTB/Annex A/Instructor Guide/DS.01.02 - Windows Navigation Instructor notes.pdf"
+                "file": "CTB/Annex B/Knowledge Check/lesson1-knowledgecheck.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "DS.01.02 - Windows Navigation Instructor notes"
+              "icon": "lucide-file",
+              "title": "lesson1-knowledgecheck"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,19 +215,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "c9dc64d14bb63e1e",
+  "active": "3702bf89641fad32",
   "lastOpenFiles": [
+    "CTB/Annex B/Handouts/Annex B Lesson 1 -Operating Systems.pdf",
+    "CTB/Annex B/Handouts/Annex B Lesson 2 -Server Roles.pdf",
+    "CTB/Annex B/Knowledge Check/lesson1-knowledgecheck.md",
+    "CTB/Annex B/Handouts/Annex B Lesson 3 -Group Policy.pdf",
+    "CTB/Annex B/Knowledge Check",
+    "CTB/Annex B/Handouts/lesson1-knowledgecheck.md.tmp.21560.38bc12ee7c59",
+    "CTB/Annex B/Media/Annex B Lesson 2 -Server Roles Media.pdf",
+    "CTB/Annex B/Media/Annex B Lesson 1 -Operating Systems Media.pdf",
+    "CTB/Annex A/Media/DS.01.01 - I.T. Fundamentals.pdf",
     "CTB/Annex A/Instructor Guide/DS.01.01 - I.T. Fundamentals Instructor notes.pdf",
     "CTB/Annex B/Facilitation Guides/DSAC DS.02.02 Facilitation Guide WORKING.pdf",
-    "CTB/Annex B/Facilitation Guides/DSAC DS.02.01 Facilitation Guide WORKING.pdf",
-    "CTB/Annex B/Facilitation Guides/DSAC DS.02.08 Facilitation Guide WORKING.pdf",
-    "CTB/Facilitation Guide (all)/DSAC DS.03.01 Facilitation Guide WORKING.pdf",
-    "CTB/Annex B/Facilitation Guides",
-    "CTB/Annex B/Facilitation Guides/DSAC DS.02.07 Faciliation Guide WORKING.pdf",
-    "CTB/Facilitation Guide (all)/DSAC DS.03.02 Facilitation Guide WORKING.pdf",
-    "CTB/Facilitation Guide (all)/DSAC DS.03.03 Facilitation Guide WORKING.pdf",
-    "CTB/Annex B/Facilitation Guides/DSAC DS.02.06 Faciliation Guide WORKING.pdf",
-    "CTB/Annex B/Facilitation Guides/DSAC DS.02.05 Faciliation Guide WORKING.pdf",
     "Linux/LibreOffice/office-to-pdf.md",
     "Coding/cs/csharp-beginner-to-novice-guide.md",
     "Untitled.canvas",
