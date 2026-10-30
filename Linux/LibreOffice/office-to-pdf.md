@@ -214,7 +214,51 @@ Current Folder/
 
 ---
 
-## 6. Fallback: OnlyOffice Desktop Editors
+## 6. Screenshots / PNGs → One PDF
+
+Combines every `.png` in the **current directory** into a single PDF, one image per page. This uses `img2pdf` rather than LibreOffice: it's faster and doesn't re-compress the images, so there's no quality loss.
+
+```bash
+sudo apt install img2pdf
+```
+
+### All PNGs in this folder → `screenshots.pdf`
+```bash
+find . -maxdepth 1 -type f -iname "*.png" -print0 | sort -zV |
+  xargs -0 img2pdf -o screenshots.pdf
+```
+
+| Part | What it does |
+|---|---|
+| `-maxdepth 1` | Current folder only, no subfolders |
+| `-iname "*.png"` | Matches `.png` and `.PNG` |
+| `-print0` … `xargs -0` | Handles spaces in names (e.g. `Screenshot from 2026-10-29 14-03-22.png`) |
+| `sort -zV` | Page order = natural filename order (`2` before `10`). Default screenshot names include the date and time, so this is also chronological. |
+| `img2pdf -o screenshots.pdf` | Writes all images into one PDF |
+
+### Variations
+- **Include subfolders:** drop `-maxdepth 1`.
+- **Include JPGs too:** use `\( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \)` instead of `-iname "*.png"`.
+- **Fit every page to A4** (screenshots otherwise become pages the exact size of the image): add `--pagesize A4 --fit into` after `img2pdf`.
+- **Order by when the file was saved** instead of by name:
+  ```bash
+  ls -tr --zero -- *.png *.PNG 2>/dev/null | xargs -0 img2pdf -o screenshots.pdf
+  ```
+  (`ls --zero` needs coreutils 9.0+.)
+
+### If img2pdf refuses a PNG
+Older `img2pdf` versions stop with `Refusing to work on images with alpha channel` on PNGs that have transparency. Either update `img2pdf` (`pipx install img2pdf`), or flatten copies of the images first and convert those:
+```bash
+mkdir -p flat
+mogrify -path flat -background white -alpha remove -alpha off *.png   # needs imagemagick
+find flat -maxdepth 1 -iname "*.png" -print0 | sort -zV | xargs -0 img2pdf -o screenshots.pdf
+```
+
+> Want the text in the screenshots to be searchable/selectable? Run the PDF through OCR — see [[images-to-searchable-pdf]].
+
+---
+
+## 7. Fallback: OnlyOffice Desktop Editors
 
 OnlyOffice has the closest Microsoft Office rendering on Linux. Use it when LibreOffice's output has broken SmartArt, shifted text boxes, or wrong charts.
 
@@ -227,7 +271,7 @@ Open the file → *File → Download as → PDF*. It's GUI-only for practical pu
 
 ---
 
-## 7. Troubleshooting
+## 8. Troubleshooting
 
 | Problem | Fix |
 |---|---|
@@ -240,7 +284,7 @@ Open the file → *File → Download as → PDF*. It's GUI-only for practical pu
 
 ---
 
-## 8. Quick reference
+## 9. Quick reference
 
 ```bash
 # Slides → PDF
@@ -262,4 +306,7 @@ libreoffice --headless --convert-to pdf --outdir ./pdf *.pptx *.ppt *.xlsx *.xls
 mkdir -p conversions
 find . -path ./conversions -prune -o -type f \( -iname "*.pptx" -o -iname "*.ppt" -o -iname "*.xlsx" -o -iname "*.xls" -o -iname "*.docx" -o -iname "*.doc" \) ! -name '~$*' \
   -exec libreoffice --headless --convert-to pdf --outdir conversions {} +
+
+# All PNGs/screenshots in this folder → one PDF
+find . -maxdepth 1 -type f -iname "*.png" -print0 | sort -zV | xargs -0 img2pdf -o screenshots.pdf
 ```

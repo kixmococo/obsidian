@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTB/Annex B/Knowledge Check/lesson1-knowledgecheck.md",
+                "file": "Linux/LibreOffice/office-to-pdf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lesson1-knowledgecheck"
+              "title": "office-to-pdf"
             }
           },
           {
@@ -217,9 +217,11 @@
   },
   "active": "3702bf89641fad32",
   "lastOpenFiles": [
-    "CTB/Annex B/Handouts/Annex B Lesson 1 -Operating Systems.pdf",
-    "CTB/Annex B/Handouts/Annex B Lesson 2 -Server Roles.pdf",
+    "Linux/LibreOffice/office-to-pdf.md.tmp.17792.3f9596d8fcce",
+    "Linux/LibreOffice/images-to-searchable-pdf.md",
     "CTB/Annex B/Knowledge Check/lesson1-knowledgecheck.md",
+    "CTB/Annex B/Handouts/Annex B Lesson 2 -Server Roles.pdf",
+    "CTB/Annex B/Handouts/Annex B Lesson 1 -Operating Systems.pdf",
     "CTB/Annex B/Handouts/Annex B Lesson 3 -Group Policy.pdf",
     "CTB/Annex B/Knowledge Check",
     "CTB/Annex B/Handouts/lesson1-knowledgecheck.md.tmp.21560.38bc12ee7c59",
@@ -232,7 +234,6 @@
     "Coding/cs/csharp-beginner-to-novice-guide.md",
     "Untitled.canvas",
     "Coding/c.md",
-    "Linux/LibreOffice/images-to-searchable-pdf.md",
     "Linux/remote-desktop-setup.md",
     "Linux/lutris-guide.md",
     "Linux/cac-setup.md",
