@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "USMC/CTB/DSAC/b-annex/Labs/Final/Lab-11-gui.pdf"
+                "file": "USMC/CTB/DSAC/b-annex/Handouts/Annex B Messaging Systems Lesson.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lab-11-gui"
+              "title": "Annex B Messaging Systems Lesson"
             }
           }
         ]
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 227.07421875
   },
   "right": {
     "id": "4cda8b25f65bb4bb",
@@ -188,38 +188,42 @@
   },
   "active": "c9dc64d14bb63e1e",
   "lastOpenFiles": [
-    "USMC/CTB/DSAC/b-annex/Labs/Final/ocr-Lab-11-gui.pdf",
-    "USMC/CTB/DSAC/b-annex/Labs/Final/cli-Lab-11-gui.md",
-    "USMC/CTB/DSAC/b-annex/Labs/Final/1-Notes.md",
-    "USMC/CTB/DSAC/b-annex/Labs/Final/Lab-11-gui.pdf",
-    "USMC/CTB/DSAC/b-annex/Labs/concepts-primer.md",
-    "USMC/CTB/DSAC/b-annex/Labs/Final",
-    "USMC/CTB/DSAC/b-annex/Labs/cli-Lab-11-gui.md.tmp.10341.81a0fa5be87e",
-    "Linux/LibreOffice/images-to-searchable-pdf.md",
-    "Linux/LibreOffice/office-to-pdf.md",
+    "USMC/CTB/DSAC/b-annex/Media/Annex B Messaging Systems Lesson Media.pptx",
+    "USMC/CTB/DSAC/b-annex/Media/lu193092ca4o.tmp",
+    "USMC/CTB/DSAC/b-annex/Handouts/Annex B Lesson 2 -Server Roles.pdf",
+    "USMC/CTB/DSAC/b-annex/Media/Annex B Messaging Systems Lesson Media.pdf",
+    "USMC/CTB/DSAC/b-annex/Handouts/Annex B Messaging Systems Lesson.pdf",
+    "USMC/CTB/DSAC/b-annex/Media/Annex B Lesson 3 -Group Policy Media.pdf",
+    "USMC/CTB/DSAC/b-annex/Media/Annex B Messaging Systems Lesson Media.odp",
     "USMC/CTB/DSAC/b-annex/Media/Annex B Lesson 2 -Server Roles Media.pdf",
-    "USMC/CTB/DSAC/b-annex/Labs",
-    "USMC/CTB/DSAC/b-annex/Facilitation Guides/DSAC DS.02.04 Facilitation Guide Working.pdf",
+    "USMC/CTB/DSAC/b-annex/Media/Annex B Lesson 1 -Operating Systems Media.pdf",
+    "USMC/CTB/DSAC/a-annex/Media/DS.01.01 - I.T. Fundamentals.pdf",
+    "USMC/CTB/DSAC/b-annex/Handouts/Annex B Lesson 3 -Group Policy.pdf",
+    "USMC/CTB/DSAC/b-annex/Lab-Handouts/Final/cli-Lab-11-gui.md",
+    "USMC/CTB/DSAC/b-annex/Lab-Handouts/Final/1-Notes.md",
+    "USMC/CTB/DSAC/b-annex/Labs/1-WindowsServer-CLI.md",
+    "USMC/CTB/DSAC/b-annex/Lab-Handouts/concepts-primer.md",
+    "USMC/CTB/DSAC/b-annex/Knowledge Check/lesson1-knowledgecheck.md",
+    "USMC/CTB/DSAC/b-annex/Labs/1-WindowsServer.md",
+    "Linux/LibreOffice/office-to-pdf.md",
+    "USMC/CTB/DSAC/b-annex/Labs/Untitled.md",
+    "Linux/bashrc-and-aliases.md",
+    "Linux/WIP Resetting Drivers.md",
+    "Linux/imagemagick-commands.md",
+    "Linux/creating-ssh-keys.md",
+    "Linux/cac-setup.md",
+    "GitLab Open Tickets/18.md",
+    "Git/git-diff-guide.md",
+    "Git/git-cheatsheet.md",
+    "Linux/remote-desktop-setup.md",
+    "Linux/LibreOffice/images-to-searchable-pdf.md",
     "USMC/moodle-dropbox-and-h5p-guide.md",
     "USMC/CTB/Instructor/Evaluation/Nov4-CS DS.05.01/Old/080 Threat Vectors in Cybersecurity.md",
     "USMC/CTB/Instructor/Evaluation/Nov4-CS DS.05.01/Old/080 Intro to Cybersecurity.md",
     "USMC/CTB/Instructor/Untitled.md",
-    "USMC/CTB/Instructor/Evaluation/Nov4-CS DS.05.01/Old",
-    "USMC/CTB/Instructor/Evaluation/Nov4-CS DS.05.01/New",
-    "USMC/CTB/Instructor/Evaluation/Nov4-CS DS.05.01",
     "USMC/MN/ALF/3/explains2.md",
     "USMC/MN/ALF/3/explains.md",
     "USMC/MN/ALF/2/practice-questions.md",
-    "USMC/MN/ALF/1/ALF Unit 1 Practice Questions.md",
-    "USMC/MN/ALF/2/Untitled.md",
-    "USMC/CTB/DSAC/b-annex/Knowledge Check/lesson1-knowledgecheck.md",
-    "USMC/MN/ALF/1/Untitled.md",
-    "Coding/cs/csharp-beginner-to-novice-guide.md",
-    "Untitled.canvas",
-    "Coding/c.md",
-    "Linux/remote-desktop-setup.md",
-    "Linux/lutris-guide.md",
-    "Linux/cac-setup.md",
-    "Git/merge conflicts.md"
+    "Untitled.canvas"
   ]
 }
