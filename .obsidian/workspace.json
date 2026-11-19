@@ -11,12 +11,14 @@
             "id": "c9dc64d14bb63e1e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "USMC/CTB/DSAC/b-annex/Handouts/Annex B Messaging Systems Lesson.pdf"
+                "file": "Linux/storage-assessment-and-dual-boot.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Annex B Messaging Systems Lesson"
+              "icon": "lucide-file",
+              "title": "storage-assessment-and-dual-boot"
             }
           }
         ]
@@ -188,11 +190,11 @@
   },
   "active": "c9dc64d14bb63e1e",
   "lastOpenFiles": [
+    "USMC/CTB/DSAC/b-annex/Handouts/Annex B Messaging Systems Lesson.pdf",
     "USMC/CTB/DSAC/b-annex/Media/Annex B Messaging Systems Lesson Media.pptx",
     "USMC/CTB/DSAC/b-annex/Media/lu193092ca4o.tmp",
     "USMC/CTB/DSAC/b-annex/Handouts/Annex B Lesson 2 -Server Roles.pdf",
     "USMC/CTB/DSAC/b-annex/Media/Annex B Messaging Systems Lesson Media.pdf",
-    "USMC/CTB/DSAC/b-annex/Handouts/Annex B Messaging Systems Lesson.pdf",
     "USMC/CTB/DSAC/b-annex/Media/Annex B Lesson 3 -Group Policy Media.pdf",
     "USMC/CTB/DSAC/b-annex/Media/Annex B Messaging Systems Lesson Media.odp",
     "USMC/CTB/DSAC/b-annex/Media/Annex B Lesson 2 -Server Roles Media.pdf",
